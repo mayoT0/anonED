@@ -1,2 +1,3 @@
-# overlap_eng_diagram
-Engineering drawings provided by Bakkopi with overlapping elements and non-standard objects
+# anonSLD
+Anonymized non-standard object examples for evaluation on other engineering diagrams
+Examples are provided without background to aid use on different drawing types
