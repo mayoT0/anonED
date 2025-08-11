@@ -1,4 +1,4 @@
-# anonED demo
+# anonED overview
 A training free method for anonymising sensitive regions in complex engineering diagrams.
 
 <p align="center">
@@ -6,12 +6,46 @@ A training free method for anonymising sensitive regions in complex engineering 
 <i>AnonED Method Visualization.</i>
 </p>
 
-Anonymised data and code for the ICDAR 2025 Workshop paper titled `AnonED: Complex Region Anonymisation in Electrical Diagrams using Hybrid Density-Based Spatial Clustering`
+LLM-based classification demo for the ICDAR 2025 Workshop paper titled `AnonED: Complex Region Anonymisation in Electrical Diagrams using Hybrid Density-Based Spatial Clustering`
 
 `samples` folder contains non-standard objects without background to simulate occlusion on different drawing types
 
+# Data
+Demo data from an openly available datasets
+
+Piping and Instrumentation Diagram (P&ID) Table Detection Dataset. Available [here](https://universe.roboflow.com/tblocr/table_det-ixptg)
+
+```bibtex
+@misc{table_det-ixptg_dataset,
+title = { Table_Det Dataset },
+type = { Open Source Dataset },
+author = { TBLOCR },
+url = { https://universe.roboflow.com/tblocr/table_det-ixptg },
+journal = { Roboflow Universe },
+publisher = { Roboflow },
+year = { 2024 },
+month = { may },
+note = { visited on 2025-02-21 },
+}
+
+Synthetic Manufacturing Raster Diagrams (Engineering Drawing Information Extractor). Available [here](https://github.com/Bakkopi/engineering-drawing-extractor)
+
+```bibtex
+@misc{Bakkopi2023,
+   author = {Bakkopi},
+   journal = {Github},
+   month = {8},
+   title = {Engineering Drawing Extractor},
+   url = {https://github.com/Bakkopi/engineering-drawing-extractor},
+   year = {2023}
+}
+
+# To use other diagrams
+
+Replace file paths and tessaract ocr language settings in the `a_preprocessing.py` and `b_text_extraction.py` notebook
+
 # References
-To cite the code for this paper, consider using,
+To cite the paper demo code, consider using,
 
 ```bibtex
 @InProceedings{onabanjo2025anoned,
