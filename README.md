@@ -13,7 +13,7 @@ LLM-based classification demo for the ICDAR 2025 Workshop paper titled `AnonED: 
 # Data
 Demo data from an openly available datasets
 
-Piping and Instrumentation Diagram (P&ID) Table Detection Dataset. Available [here](https://universe.roboflow.com/tblocr/table_det-ixptg)
+## Piping and Instrumentation Diagram (P&ID) Table Detection Dataset. Available [here](https://universe.roboflow.com/tblocr/table_det-ixptg)
 
 ```bibtex
 @misc{table_det-ixptg_dataset,
@@ -27,8 +27,8 @@ year = { 2024 },
 month = { may },
 note = { visited on 2025-02-21 },
 }
-
-Synthetic Manufacturing Raster Diagrams (Engineering Drawing Information Extractor). Available [here](https://github.com/Bakkopi/engineering-drawing-extractor)
+```
+## Synthetic Manufacturing Raster Diagrams (Engineering Drawing Information Extractor). Available [here](https://github.com/Bakkopi/engineering-drawing-extractor)
 
 ```bibtex
 @misc{Bakkopi2023,
@@ -39,7 +39,7 @@ Synthetic Manufacturing Raster Diagrams (Engineering Drawing Information Extract
    url = {https://github.com/Bakkopi/engineering-drawing-extractor},
    year = {2023}
 }
-
+```
 # To use other diagrams
 
 Replace file paths and tessaract ocr language settings in the `a_preprocessing.py` and `b_text_extraction.py` notebook
@@ -57,3 +57,4 @@ publisher={Springer Nature Switzerland},
 address={Cham},
 pages={X--XX},
 }
+```
