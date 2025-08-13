@@ -11,7 +11,7 @@ LLM-based classification demo for the ICDAR 2025 Workshop paper titled `AnonED: 
 `samples` folder contains non-standard objects without background to simulate occlusion on different drawing types
 
 # Data
-Demo data from an openly available datasets
+Demo data from openly available datasets
 
 ## Piping and Instrumentation Diagram (P&ID) Table Detection Dataset. Available [here](https://universe.roboflow.com/tblocr/table_det-ixptg)
 
