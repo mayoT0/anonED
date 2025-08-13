@@ -10,6 +10,9 @@ LLM-based classification demo for the ICDAR 2025 Workshop paper titled `AnonED: 
 
 `samples` folder contains non-standard objects without background to simulate occlusion on different drawing types
 
+# Demo
+To run the demo, clone the repository and follow the steps in the `anoned_fusion.py` notebook 
+
 # Data
 Datasets for validation
 
