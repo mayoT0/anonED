@@ -3,7 +3,7 @@ A training free method for anonymising sensitive regions in complex engineering 
 
 <p align="center">
   <img src="figures/anonED_no_training.png" width="1080" title="AnonED Method Visualization" alt="AnonED Method Visualization"/>  
-<i>AnonED Method Visualization.</i>
+<i>AnonED Method Visualization (dictionary text classification).</i>
 </p>
 
 LLM-based classification demo for the ICDAR 2025 Workshop paper titled `AnonED: Complex Region Anonymisation in Electrical Diagrams using Hybrid Density-Based Spatial Clustering`
@@ -11,7 +11,7 @@ LLM-based classification demo for the ICDAR 2025 Workshop paper titled `AnonED: 
 `samples` folder contains non-standard objects without background to simulate occlusion on different drawing types
 
 # Data
-Demo data from openly available datasets
+Datasets for validation
 
 ## Piping and Instrumentation Diagram (P&ID) Table Detection Dataset. Available [here](https://universe.roboflow.com/tblocr/table_det-ixptg)
 
@@ -40,12 +40,15 @@ note = { visited on 2025-02-21 },
    year = {2023}
 }
 ```
-# To use other diagrams
+# To replicate on other diagram types
 
-Replace file paths and tessaract ocr language settings in the `a_preprocessing.py` and `b_text_extraction.py` notebook
+1. Use sample images to generate a dictionary from the notebook `llm_dictionary.py` (note: requires OpenAI API key)
+2. Replace file paths, Laplaian variance threshold and tessaract ocr language settings in the notebook `anoned_fusion.py`
+
+Note: Results in image were generated using a traditional dictionary. Demo results will vary (i.e., LLM-generated dictionary)
 
 # References
-To cite the paper demo code, consider using,
+To cite the demo code:
 
 ```bibtex
 @InProceedings{onabanjo2025anoned,
