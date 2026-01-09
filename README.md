@@ -58,9 +58,10 @@ To cite the demo code:
 title={AnonED: Complex Region Anonymisation in Electrical Diagrams using Hybrid Density-Based Spatial Clustering},
 author={Onabanjo, Olumayowa and Moreno-García, Carlos Francisco and Martinez-Huerta, Gemma and Díaz Piloñeta, Marina and Ortega-Fernández, Francisco},
 booktitle={Document Analysis and Recognition -- ICDAR 2025 Workshops},
-year={2025},
-publisher={Springer Nature Switzerland},
+year={2026},
+publisher={Springer},
 address={Cham},
-pages={X--XX},
+pages={34--49},
+doi = {10.1007/978-3-032-09371-4_3}
 }
 ```
